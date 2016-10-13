@@ -1,0 +1,10 @@
+@ECHO OFF
+
+IF "%2"=="" GOTO INTEGRATEDSECURITY
+SQLCMD -S %1 -U %2 -P %3 -i "Create_All.sql" -v CURDIR="%CD%"
+GOTO END
+
+:INTEGRATEDSECURITY
+SQLCMD -S %1 -E -i "Create_All.sql" -v CURDIR="%CD%"
+
+:END

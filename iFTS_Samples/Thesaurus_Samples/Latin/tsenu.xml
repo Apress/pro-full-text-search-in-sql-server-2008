@@ -1,0 +1,20 @@
+﻿<XML ID="Microsoft Search Thesaurus">
+
+	<!--  Shakespeare language thesaurus -->
+
+	<thesaurus xmlns="x-schema:tsSchema.xml">
+		<diacritics_sensitive>0</diacritics_sensitive>
+		<replacement>
+			<pat>octoginta</pat>
+			<sub>eighty</sub>
+		</replacement>
+		<replacement>
+			<pat>irrito</pat>
+			<sub>provoke</sub>
+			<sub>annoy</sub>
+			<sub>excite</sub>
+			<sub>stimulate</sub>
+			<sub>aggravate</sub>
+		</replacement>
+	</thesaurus>
+</XML>

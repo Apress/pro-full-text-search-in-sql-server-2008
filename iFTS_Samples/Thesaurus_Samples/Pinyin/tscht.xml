@@ -1,0 +1,23 @@
+﻿<XML ID="Microsoft Search Thesaurus">
+
+	<!--  Shakespeare language thesaurus -->
+
+	<thesaurus xmlns="x-schema:tsSchema.xml">
+		<diacritics_sensitive>0</diacritics_sensitive>
+		<expansion>
+			<sub>國際象棋</sub>
+			<sub>guójìxiàngqí</sub>
+			<sub>chess</sub>
+		</expansion>
+		<expansion>
+			<sub>馬</sub>
+			<sub>mǎ</sub>
+			<sub>knight</sub>
+		</expansion>
+		<expansion>
+			<sub>兵</sub>
+			<sub>bīng</sub>
+			<sub>pawn</sub>
+		</expansion>
+	</thesaurus>
+</XML>

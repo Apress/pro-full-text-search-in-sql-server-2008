@@ -1,0 +1,30 @@
+﻿<XML ID="Microsoft Search Thesaurus">
+
+	<!--  Shakespeare language thesaurus -->
+
+	<thesaurus xmlns="x-schema:tsSchema.xml">
+		<diacritics_sensitive>0</diacritics_sensitive>
+		<expansion>
+			<sub>aqua</sub>
+			<sub>azure</sub>
+			<sub>aquamarine</sub>
+			<sub>indigo</sub>
+			<sub>teal</sub>
+			<sub>cobalt</sub>
+			<sub>navy</sub>
+			<sub>blue</sub>
+		</expansion>
+		<replacement>
+			<pat>fl</pat>
+			<pat>fla</pat>
+			<pat>flor</pat>
+			<sub>florida</sub>
+		</replacement>
+		<expansion>
+			<sub>skirmish</sub>
+			<sub>scuffle</sub>
+			<sub>battle</sub>
+			<sub>fight</sub>
+		</expansion>
+	</thesaurus>
+</XML>

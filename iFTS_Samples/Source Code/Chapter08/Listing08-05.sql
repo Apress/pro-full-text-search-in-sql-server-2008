@@ -1,0 +1,1 @@
+﻿EXEC dbo.Validate_Thesaurus_File N'C:\Program Files\Microsoft SQL Server\MSSQL10.MSSQLSERVER\MSSQL\FTData\tsglobal.xml';

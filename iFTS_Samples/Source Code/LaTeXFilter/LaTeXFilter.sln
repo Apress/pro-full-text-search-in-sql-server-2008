@@ -1,0 +1,27 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 10.00
+# Visual Studio 2008
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "LaTeXFilter", "LaTeXFilter\LaTeXFilter.vcproj", "{E0E5DDA7-8546-4D5E-B44B-714A6C1B47EF}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "LaTeXFilterPS", "LaTeXFilter\LaTeXFilterPS.vcproj", "{8C33A7BA-E49A-46F5-BB23-FD9F3CCF9E5B}"
+	ProjectSection(ProjectDependencies) = postProject
+		{E0E5DDA7-8546-4D5E-B44B-714A6C1B47EF} = {E0E5DDA7-8546-4D5E-B44B-714A6C1B47EF}
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Win32 = Debug|Win32
+		Release|Win32 = Release|Win32
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{E0E5DDA7-8546-4D5E-B44B-714A6C1B47EF}.Debug|Win32.ActiveCfg = Debug|Win32
+		{E0E5DDA7-8546-4D5E-B44B-714A6C1B47EF}.Debug|Win32.Build.0 = Debug|Win32
+		{E0E5DDA7-8546-4D5E-B44B-714A6C1B47EF}.Release|Win32.ActiveCfg = Release|Win32
+		{E0E5DDA7-8546-4D5E-B44B-714A6C1B47EF}.Release|Win32.Build.0 = Release|Win32
+		{8C33A7BA-E49A-46F5-BB23-FD9F3CCF9E5B}.Debug|Win32.ActiveCfg = Debug|Win32
+		{8C33A7BA-E49A-46F5-BB23-FD9F3CCF9E5B}.Release|Win32.ActiveCfg = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

@@ -1,0 +1,36 @@
+// LaTeXFilter.idl : IDL source for LaTeXFilter
+//
+
+// This file will be processed by the MIDL tool to
+// produce the type library (LaTeXFilter.tlb) and marshalling code.
+
+import "oaidl.idl";
+import "ocidl.idl";
+
+[
+	object,
+	uuid(FBA051CC-2423-4C2B-A6F9-14E4D6AA55EC),
+	dual,
+	nonextensible,
+	helpstring("ILaTeXFilter Interface"),
+	pointer_default(unique)
+]
+interface ILaTeXFilter : IDispatch{
+};
+[
+	uuid(979E2E47-5A67-41B4-8D6D-5D56C783D33C),
+	version(1.0),
+	helpstring("LaTeXFilter 1.0 Type Library")
+]
+library LaTeXFilterLib
+{
+	importlib("stdole2.tlb");
+	[
+		uuid(C87538CE-96C2-4B92-B67C-35850505E57C),
+		helpstring("LaTeXFilter Class")
+	]
+	coclass LaTeXFilter
+	{
+		[default] interface ILaTeXFilter;
+	};
+};

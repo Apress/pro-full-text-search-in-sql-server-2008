@@ -1,0 +1,34 @@
+USE master;
+GO
+
+PRINT 'Creating Database $(DBNAME)';
+GO
+
+CREATE DATABASE $(DBNAME) ON  PRIMARY 
+(
+  NAME = N'iFTS_Books_Data', 
+  FILENAME = N'C:\IFTS_Books\iFTS_Books_Data.mdf', 
+  SIZE = 50000KB, 
+  MAXSIZE = UNLIMITED, 
+  FILEGROWTH = 1024KB 
+), 
+FILEGROUP [FileStreamGroup] 
+CONTAINS FILESTREAM  
+DEFAULT 
+(
+  NAME = N'iFTS_Books_FileStream', 
+  FILENAME = N'C:\IFTS_Books\iFTS_Books_FileStream' 
+)
+LOG ON 
+(
+  NAME = N'iFTS_Books_Log', 
+  FILENAME = N'C:\IFTS_Books\iFTS_Books_Log.ldf',
+  SIZE = 1024KB,
+  MAXSIZE = 2048GB,
+  FILEGROWTH = 10%
+);
+GO
+
+ALTER DATABASE $(DBNAME) 
+SET COMPATIBILITY_LEVEL = 100;
+GO

@@ -1,0 +1,26 @@
+HKCR
+{
+	LaTeXFilter.LaTeXFilter.1 = s 'LaTeXFilter Class'
+	{
+		CLSID = s '{C87538CE-96C2-4B92-B67C-35850505E57C}'
+	}
+	LaTeXFilter.LaTeXFilter = s 'LaTeXFilter Class'
+	{
+		CLSID = s '{C87538CE-96C2-4B92-B67C-35850505E57C}'
+		CurVer = s 'LaTeXFilter.LaTeXFilter.1'
+	}
+	NoRemove CLSID
+	{
+		ForceRemove {C87538CE-96C2-4B92-B67C-35850505E57C} = s 'LaTeXFilter Class'
+		{
+			ProgID = s 'LaTeXFilter.LaTeXFilter.1'
+			VersionIndependentProgID = s 'LaTeXFilter.LaTeXFilter'
+			ForceRemove 'Programmable'
+			InprocServer32 = s '%MODULE%'
+			{
+				val ThreadingModel = s 'Apartment'
+			}
+			'TypeLib' = s '{979E2E47-5A67-41B4-8D6D-5D56C783D33C}'
+		}
+	}
+}

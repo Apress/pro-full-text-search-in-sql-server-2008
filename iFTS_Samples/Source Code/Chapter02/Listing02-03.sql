@@ -1,0 +1,19 @@
+CREATE FULLTEXT INDEX ON dbo.Book
+(
+	Book_Content TYPE COLUMN Book_File_Ext LANGUAGE English,
+	Book_Name LANGUAGE English
+)
+KEY INDEX PK_Book
+ON
+(
+	Book_Cat
+)
+WITH
+(
+	CHANGE_TRACKING = AUTO,
+	STOPLIST = SYSTEM
+);
+GO
+ALTER FULLTEXT INDEX
+ON dbo.Book ENABLE;
+GO

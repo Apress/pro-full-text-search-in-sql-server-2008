@@ -1,0 +1,21 @@
+﻿<XML ID="Microsoft Search Thesaurus">
+
+	<!--  Shakespeare language thesaurus -->
+
+	<thesaurus xmlns="x-schema:tsSchema.xml">
+		<diacritics_sensitive>0</diacritics_sensitive>
+		<expansion>
+			<sub>pancakes</sub>
+			<sub>syrup</sub>
+			<sub>bacon</sub>
+			<sub>eggs</sub>
+		</expansion>
+		<expansion>
+			<sub>ham</sub>
+			<sub>cheese</sub>
+			<sub>bread</sub>
+			<sub>lettuce</sub>
+			<sub>tomato</sub>
+		</expansion>
+	</thesaurus>
+</XML>

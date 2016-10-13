@@ -1,0 +1,22 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 10.00
+# Visual Studio 2008
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Phonetics", "Phonetics\Phonetics.csproj", "{F61720C3-5895-419E-96DF-853AD83FAC1B}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{F61720C3-5895-419E-96DF-853AD83FAC1B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F61720C3-5895-419E-96DF-853AD83FAC1B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F61720C3-5895-419E-96DF-853AD83FAC1B}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{F61720C3-5895-419E-96DF-853AD83FAC1B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F61720C3-5895-419E-96DF-853AD83FAC1B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F61720C3-5895-419E-96DF-853AD83FAC1B}.Release|Any CPU.Deploy.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

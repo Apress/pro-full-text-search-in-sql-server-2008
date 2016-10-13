@@ -1,0 +1,1 @@
+EXECUTE sp_configure 'default full-text language';

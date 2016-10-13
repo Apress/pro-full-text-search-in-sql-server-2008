@@ -1,0 +1,14 @@
+@ECHO OFF
+IF EXIST C:\IFTS_Books\NUL GOTO DIREXISTS
+::ECHO Creating C:\IFTS_Books Directory
+MKDIR C:\IFTS_Books
+
+:DIREXISTS
+IF "%2"=="" GOTO INTEGRATEDSECURITY
+SQLCMD -S %1 -U %2 -P %3 -i "Create_All.sql" -v CURDIR="%CD%"
+GOTO END
+
+:INTEGRATEDSECURITY
+SQLCMD -S %1 -E -i "Create_All.sql" -v CURDIR="%CD%"
+
+:END
